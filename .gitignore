@@ -1,0 +1,94 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Virtual environment
+pip-delete-this-directory.txt
+pip-wheel-metadata/
+
+# FastAPI / Uvicorn
+*.log
+logs/
+*.pid
+
+# Alembic миграции (не игнорируем versions/, но игнорируем временные файлы)
+alembic/
+!alembic/versions/
+alembic/*.pyc
+
+# Базы данных и секреты
+*.db
+*.sqlite3
+*.sqlite
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.prod
+.env.staging
+
+# Docker
+.docker/
+Dockerfile*
+docker-compose*.yml
+!.dockerignore
+
+# IDE и редакторы
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+.desktop
+
+# Logs and temp
+*.log
+tmp/
+temp/
+
+# Build and dist
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Tests and coverage
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.tox/
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Mac/Linux
+*.DS_Store
+*.AppleDouble
+*.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
