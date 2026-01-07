@@ -22,7 +22,6 @@ logs/
 
 # Alembic миграции (не игнорируем versions/, но игнорируем временные файлы)
 alembic/*.pyc
-alembic/env.py
 alembic/README
 alembic/script.py.mako
 
