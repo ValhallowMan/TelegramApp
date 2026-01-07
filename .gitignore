@@ -21,9 +21,10 @@ logs/
 *.pid
 
 # Alembic миграции (не игнорируем versions/, но игнорируем временные файлы)
-alembic/
-!alembic/versions/
 alembic/*.pyc
+alembic/env.py
+alembic/README
+alembic/script.py.mako
 
 # Базы данных и секреты
 *.db
@@ -36,12 +37,6 @@ alembic/*.pyc
 .env.*.local
 .env.prod
 .env.staging
-
-# Docker
-.docker/
-Dockerfile*
-docker-compose*.yml
-!.dockerignore
 
 # IDE и редакторы
 .idea/
